@@ -1,7 +1,7 @@
 {
   "paths": {
     "rootPath": "plots",
-    "dataSourcePath": "C:\\Users\\TEJASWAR\\Downloads\\plots - xls",
+    "dataSourcePath": "C:\\Your\\Path\\Here",
     "inspectFolder": "C:\\Your\\Path\\Here"
   },
   "filePatterns": {

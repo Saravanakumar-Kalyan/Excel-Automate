@@ -1,12 +1,5 @@
 # Enhancement v2 Completion Summary
 
-## User Request
-Make the following additions: 
-1. Categories, file-types, series if they can be configured from the menu
-2. Ask file types as physical variables from the menu
-
-## What Was Delivered
-
 ### ✅ Complete Implementation
 
 #### 1. Configuration Menu Enhancements
