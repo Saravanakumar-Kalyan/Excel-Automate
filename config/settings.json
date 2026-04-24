@@ -1,0 +1,71 @@
+{
+  "paths": {
+    "rootPath": "plots",
+    "dataSourcePath": "C:\\Users\\TEJASWAR\\Downloads\\plots - xls",
+    "inspectFolder": "C:\\Your\\Path\\Here"
+  },
+  "filePatterns": {
+    "csvPattern": "*.csv",
+    "xlsxPattern": "*.xlsx",
+    "fileTypes": ["density", "pressure", "velocity", "temperature"]
+  },
+  "categories": ["base plots", "backward plots", "forward plots"],
+  "chart": {
+    "type": 75,
+    "style": 240,
+    "position": {
+      "left": 350,
+      "top": 20,
+      "width": 360,
+      "height": 216
+    },
+    "series": [
+      {
+        "name": "Backward",
+        "xColumn": "A",
+        "yColumn": "B"
+      },
+      {
+        "name": "Strut A",
+        "xColumn": "D",
+        "yColumn": "E"
+      },
+      {
+        "name": "Strut D",
+        "xColumn": "G",
+        "yColumn": "H"
+      }
+    ],
+    "axes": {
+      "xTitle": "X-Axis",
+      "yTitle": "Y [m]"
+    },
+    "hasLegend": true,
+    "legendPosition": -4152
+  },
+  "dataProcessing": {
+    "rowsToDelete": [1, 2, 3, 4],
+    "headerRow": 1,
+    "dataStartRow": 2,
+    "columnFormat": "General"
+  },
+  "excel": {
+    "visible": false,
+    "displayAlerts": false,
+    "fileFormat": 51
+  },
+  "inspection": {
+    "waitTime": 10,
+    "visible": true
+  },
+  "logging": {
+    "verboseOutput": true,
+    "colors": {
+      "success": "Green",
+      "warning": "Yellow",
+      "error": "Red",
+      "info": "Cyan",
+      "process": "Gray"
+    }
+  }
+}
